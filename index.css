@@ -6,7 +6,14 @@
   padding-left: 15px;
 }
 .home{
-  background-image: url(https://netstorage-yen.akamaized.net/images/3o3bpd5pkd84jb5b8.jpg);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSdRarj8OdbrTML8gKZ7MkolnYYe4meR3MJI3-h8dAT0A5VFcKx&usqp=CAU);
+  
   background-repeat: no-repeat;
   color: aliceblue;
+}
+.container{
+  text-align: center;
+  background-image: url(https://netstorage-yen.akamaized.net/images/3o3bpd5pkd84jb5b8.jpg);
+  background-repeat: no-repeat;
+  color: blueviolet;
 }
