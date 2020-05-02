@@ -1,0 +1,12 @@
+.head{
+  text-align: center;
+}
+.about{
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.home{
+  background-image: url(https://netstorage-yen.akamaized.net/images/3o3bpd5pkd84jb5b8.jpg);
+  background-repeat: no-repeat;
+  color: aliceblue;
+}
