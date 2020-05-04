@@ -39,78 +39,85 @@
                     and their meanings.Akan names are not just names given to children to give them identity. There is a
                     specific traditional system that is followed when the naming is being done. The names also have
                     different meanings and appellations. </p>
-                    <p>The website is about akan name depending on the day one is born(Month,Day and Year of birth).By entering those information one is able to know his or her akan name depending on which day one was born.</p>
+                <p>The website is about akan name depending on the day one is born(Month,Day and Year of birth).By
+                    entering those information one is able to know his or her akan name depending on which day one was
+                    born.</p>
             </div>
             <form class="container">
                 <div class="row birthday_form">
                     <div class="">
-                      <h3 class="bg-danger">Please Enter your information below</h3><br>
-                      <h2>DOB</h2>
-                      <!--Century-->
-                      <!--div class="input-group input-group-lg">
+                        <h3 class="bg-danger">Please Enter your information below</h3><br>
+                        <h2>DOB</h2>
+                        <!--Century-->
+                        <!--div class="input-group input-group-lg">
                         <div class="input-group-prepend">
                           <span class="input-group-text" id="inputGroup-sizing-lg">Century</span>
                         </div>
                         <input type="text" class="form-control" id="century" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" required>
                       </div>
                       <h6>is the century digits. For example 1989 has CC = 19</h6><br-->
-                      <!--Year-->
-                      <div class="input-group input-group-lg">
-                        <div class="input-group-prepend">
-                          <span class="input-group-text" id="inputGroup-sizing-lg">Year</span>
+                        <!--Year-->
+                        <div class="input-group input-group-lg">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-lg">Year</span>
+                            </div>
+                            <input type="text" class="form-control" id="year" aria-label="Sizing example input"
+                                aria-describedby="inputGroup-sizing-lg" required>
                         </div>
-                        <input type="text" class="form-control" id="year" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" required>
-                      </div>
-                      <h6>is the Year digits (1989 has YY = 89)</h6><br>
-                      <!--Month-->
-                      <div class="input-group input-group-lg">
-                        <div class="input-group-prepend">
-                          <span class="input-group-text" id="inputGroup-sizing-lg">Month</span>
+                        <h6>is the Year digits (1989 has YY = 89)</h6><br>
+                        <!--Month-->
+                        <div class="input-group input-group-lg">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-lg">Month</span>
+                            </div>
+                            <input type="text" class="form-control" id="month" aria-label="Sizing example input"
+                                aria-describedby="inputGroup-sizing-lg" required>
                         </div>
-                        <input type="text" class="form-control" id="month" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" required>
-                      </div>
-                      <h6>is the Month</h6><br>
-                      <!--Day-->
-                      <div class="input-group input-group-lg">
-                        <div class="input-group-prepend">
-                          <span class="input-group-text" id="inputGroup-sizing-lg">Day </span>
+                        <h6>is the Month</h6><br>
+                        <!--Day-->
+                        <div class="input-group input-group-lg">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-lg">Day </span>
+                            </div>
+                            <input type="text" class="form-control" id="dayofmonth" aria-label="Sizing example input"
+                                aria-describedby="inputGroup-sizing-lg" required>
                         </div>
-                        <input type="text" class="form-control" id="dayofmonth" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" required>
-                      </div>
-                      <h6>is the Day of the month </h6><br>
-                      <!--Gender-->
-                      <div class="input-group input-group-lg mb-3">
-                        <div class="input-group-prepend">
-                          <label class="input-group-text" for="inputGroupSelect01">Gender</label>
+                        <h6>is the Day of the month </h6><br>
+                        <!--Gender-->
+                        <div class="input-group input-group-lg mb-3">
+                            <div class="input-group-prepend">
+                                <label class="input-group-text" for="inputGroupSelect01">Gender</label>
+                            </div>
+                            <select class="custom-select" id="inputGroupSelect01">
+                                <option selected>Choose gender</option>
+                                <option value="1">Male</option>
+                                <option value="2">Female</option>
+                            </select>
                         </div>
-                        <select class="custom-select" id="inputGroupSelect01">
-                          <option selected>Choose gender</option>
-                          <option value="1">Male</option>
-                          <option value="2">Female</option>
-                        </select>
-                      </div>
-                      <h6>is your gender</h6><br>
-                      <button type="button" class="btn btn-info" id="result" onclick="akanNameFind();">Check Validity</button><br>
-                      <div class="result_box">
-                          <h5 id="answer"></h5>
-                      </div>
-                     
+                        <h6>is your gender</h6><br>
+                        <button type="button" class="btn btn-info" id="result" onclick="akanNameFind();">Check
+                            Validity</button><br>
+                        <div class="result_box">
+                            <h5 id="answer"></h5>
+                        </div>
+
                     </div>
-                
-                  </div>
+
                 </div>
-                <div class="col-md-4">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRabgWQwuSsomqqLWzdtK7nXLbMWKk9TlzcYMcvJathOcNzcO1N&usqp=CAU"
-                        alt="" height="880px" width="550px">
+        </div>
+        <div class="col-md-4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRabgWQwuSsomqqLWzdtK7nXLbMWKk9TlzcYMcvJathOcNzcO1N&usqp=CAU"
+                alt="" height="880px" width="550px">
 
-                        <p id="display"></p>
+            <p id="display"></p>
 
-<div class="footer">
-    <h1>Contacts</h1>   
-</div>
+            <div class="footer">
+                <img src="https://i.ytimg.com/vi/undYXrdbojQ/maxresdefault.jpg" alt="" height="500px" width="500px">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQXstaPssDclFUhasyGAkuRWvvQ67ux3ZADXcJ5aQ5jkDuTBHq5&usqp=CAU" alt="" height="500px" width="500px">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRwQn1Ig9H96KFDAIzf_NKsht-a9RGbH3kymSkY53rnEJjNDKcZ&usqp=CAU" alt="" height="500px" width="500px" >
+            </div>
 
-
-    <script src="index.js"></script>
+            <script src="index.js"></script>
 </body>
 
 </html>
