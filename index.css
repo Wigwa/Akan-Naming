@@ -15,9 +15,9 @@
   padding: 150px;
 }
 .container{
-  text-align: center;
+  text-align: fixed;
   background-image: url(https://netstorage-yen.akamaized.net/images/3o3bpd5pkd84jb5b8.jpg);
-  height: 1200px;
+  height: 500px;
   background-repeat: no-repeat;
   color: antiquewhite;
 
