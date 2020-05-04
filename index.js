@@ -5,3 +5,4 @@ function textInput() {
       Sunday="Akosua", Monday="Kwadwo", Tuesday="Abenaa", Wednesday="Akua", Thursday="Yaa", Friday="Afua", Saturday="Ama" 
     ];
 }
+console.log(textInput);
